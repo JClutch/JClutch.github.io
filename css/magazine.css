@@ -1,6 +1,6 @@
 body{
 	overflow:hidden;
-	background-color:#fcfcfc;
+	background-color: #1b1d1f;
 	margin:0;
 	padding:0;
 }
@@ -122,20 +122,20 @@ body{
 
 .magazine-viewport .next-button,
 .magazine-viewport .previous-button{
-	width:22px;
+	width:60px;
 	height:600px;
 	position:absolute;
 	top:0;
 }
 
 .magazine-viewport .next-button{
-	right:-22px;
+	right:-60px;
 	-webkit-border-radius:0 15px 15px 0;
 	border-radius:0 15px 15px 0;
 }
 
 .magazine-viewport .previous-button{
-	left:-22px;
+	left:-60px;
 	-webkit-border-radius:15px 0 0 15px;
 	border-radius:15px 0 0 15px;
 }
@@ -148,7 +148,7 @@ body{
 .magazine-viewport .previous-button-hover,
 .magazine-viewport .previous-button-down{
 	background-image:url(../pics/arrows.png);
-	background-position:-4px 284px;
+	background-position:24px 284px;
 	background-repeat:no-repeat;
 }
 
@@ -160,7 +160,7 @@ body{
 .magazine-viewport .next-button-hover,
 .magazine-viewport .next-button-down{
 	background-image:url(../pics/arrows.png);
-	background-position:-38px 284px;
+	background-position:-28px 284px;
 	background-repeat:no-repeat;
 }
 
