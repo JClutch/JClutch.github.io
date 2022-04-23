@@ -33,6 +33,10 @@ body{
 	display:none;
 }
 
+.magazine {
+	margin-left: 45px !important;
+}
+
 .magazine .region{
 	position:absolute;
 	overflow:hidden;
